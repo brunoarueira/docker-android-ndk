@@ -3,4 +3,4 @@
 # Collection of shared constants
 #
 
-DOCKER_IMAGE=saschpe/android-ndk
+DOCKER_IMAGE=brunoarueira/android-ndk-with-nodejs-yarn-npx

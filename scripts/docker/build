@@ -8,13 +8,11 @@ SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . "${SCRIPT_DIR}/../inc.constants"
 . "${SCRIPT_DIR}/../inc.functions"
 
-
 # Functions
 function usage {
     echo -e "Usage: ${0} [OPTIONS]"
     exit 1
 }
-
 
 # Command-line arguments
 while [[ $# -gt 0 ]] ; do
@@ -29,7 +27,6 @@ while [[ $# -gt 0 ]] ; do
     esac
     shift # past argument or value
 done
-
 
 # Let's roll
 safe docker build \
